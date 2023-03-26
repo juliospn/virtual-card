@@ -15,11 +15,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-   "start": "react-scripts start",
-   "build": "react-scripts build",
-   "build-components": "npx babel src/components --out-dir=dist/components --copy-files"
-   "test": "react-scripts test",
-   "eject": "react-scripts eject"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build-components": "npx babel src/components --out-dir=dist/components --copy-files",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -38,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
   }
 }
