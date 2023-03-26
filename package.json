@@ -17,7 +17,7 @@
   "scripts": {
    "start": "react-scripts start",
    "build": "react-scripts build",
-   "build-components": "parcel build src/components/index.js --out-dir build",
+   "build-components": "npx babel src/components --out-dir=dist/components --copy-files"
    "test": "react-scripts test",
    "eject": "react-scripts eject"
   },
