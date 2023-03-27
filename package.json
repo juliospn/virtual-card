@@ -1,6 +1,6 @@
 {
-  "homepage": "https://juliospn.github.io/virtual-card",
-  "name": "virtual-card",
+  "homepage": "https://juliospn.github.io/virtual-card/",
+  "name": "virtual_card",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
