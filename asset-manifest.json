@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/virtual-card/static/css/main.a8bf193b.css",
-    "main.js": "/virtual-card/static/js/main.400b9058.js",
+    "main.js": "/virtual-card/static/js/main.abb78560.js",
     "static/js/787.3b2667ff.chunk.js": "/virtual-card/static/js/787.3b2667ff.chunk.js",
     "index.html": "/virtual-card/index.html",
     "main.a8bf193b.css.map": "/virtual-card/static/css/main.a8bf193b.css.map",
-    "main.400b9058.js.map": "/virtual-card/static/js/main.400b9058.js.map",
+    "main.abb78560.js.map": "/virtual-card/static/js/main.abb78560.js.map",
     "787.3b2667ff.chunk.js.map": "/virtual-card/static/js/787.3b2667ff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8bf193b.css",
-    "static/js/main.400b9058.js"
+    "static/js/main.abb78560.js"
   ]
 }
