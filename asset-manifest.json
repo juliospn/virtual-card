@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/virtual-card/static/css/main.a8bf193b.css",
-    "main.js": "/virtual-card/static/js/main.c4c3e979.js",
-    "static/js/787.3b2667ff.chunk.js": "/virtual-card/static/js/787.3b2667ff.chunk.js",
-    "index.html": "/virtual-card/index.html",
-    "main.a8bf193b.css.map": "/virtual-card/static/css/main.a8bf193b.css.map",
-    "main.c4c3e979.js.map": "/virtual-card/static/js/main.c4c3e979.js.map",
-    "787.3b2667ff.chunk.js.map": "/virtual-card/static/js/787.3b2667ff.chunk.js.map"
+    "main.css": "https://juliospn.github.io/virtual-card/static/css/main.a8bf193b.css",
+    "main.js": "https://juliospn.github.io/virtual-card/static/js/main.f6655738.js",
+    "static/js/787.3b2667ff.chunk.js": "https://juliospn.github.io/virtual-card/static/js/787.3b2667ff.chunk.js",
+    "index.html": "https://juliospn.github.io/virtual-card/index.html",
+    "main.a8bf193b.css.map": "https://juliospn.github.io/virtual-card/static/css/main.a8bf193b.css.map",
+    "main.f6655738.js.map": "https://juliospn.github.io/virtual-card/static/js/main.f6655738.js.map",
+    "787.3b2667ff.chunk.js.map": "https://juliospn.github.io/virtual-card/static/js/787.3b2667ff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8bf193b.css",
-    "static/js/main.c4c3e979.js"
+    "static/js/main.f6655738.js"
   ]
 }
