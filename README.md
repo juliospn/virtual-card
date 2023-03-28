@@ -2,7 +2,7 @@
 
 > Status: Developing ⚠️
 
-### This is a project created using React with the purpose of generating personalized QR Codes. The application allows the user to inform their name, LinkedIn, and GitHub, and generates a QR Code with this information.
+This is a project created using React with the purpose of generating personalized QR Codes. The application allows the user to inform their name, LinkedIn, and GitHub, and generates a QR Code with this information.
 
 ## How to Use
 To use this application, follow the steps below:
