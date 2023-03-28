@@ -26,7 +26,7 @@ function QRCodeGenerator() {
 
   return (
     <div>
-      <h1>QR Code Image Generator</h1>
+      <h1>QR Code Image Generator*</h1>
 
       <div className="qrcode-generator">
         <form onSubmit={handleSubmit}>
@@ -46,7 +46,7 @@ function QRCodeGenerator() {
           </div>
           
           <div>
-            <button type="submit">Generate Image</button>
+            <button type="submit">Generate QR Code</button>
           </div>
         </form>
       </div>

@@ -4,7 +4,7 @@ label {
 }
 
 input[type="text"] {
-    width: 400px;
+    width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -14,18 +14,33 @@ input[type="text"] {
 }
 
 button[type="submit"] {
-    background-color: #5b775c;
+    background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     margin-top: 20px;
-    justify-content: center;
 }
 
+h1 {
+   text-align:center;
+}
 .qrcode-generator {
-    text-align: left;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.qrcode-generator h1 {
+margin-bottom: 30px;
+}
+
+.qrcode-image-container {
+margin-top: 30px;
+}
+
+.form-group {
+    width: 400px;
 }
