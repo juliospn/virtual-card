@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "https://juliospn.github.io/virtual-card/static/css/main.a8bf193b.css",
-    "main.js": "https://juliospn.github.io/virtual-card/static/js/main.d8cdf0ad.js",
+    "main.js": "https://juliospn.github.io/virtual-card/static/js/main.0e830407.js",
     "static/js/787.3b2667ff.chunk.js": "https://juliospn.github.io/virtual-card/static/js/787.3b2667ff.chunk.js",
     "index.html": "https://juliospn.github.io/virtual-card/index.html",
     "main.a8bf193b.css.map": "https://juliospn.github.io/virtual-card/static/css/main.a8bf193b.css.map",
-    "main.d8cdf0ad.js.map": "https://juliospn.github.io/virtual-card/static/js/main.d8cdf0ad.js.map",
+    "main.0e830407.js.map": "https://juliospn.github.io/virtual-card/static/js/main.0e830407.js.map",
     "787.3b2667ff.chunk.js.map": "https://juliospn.github.io/virtual-card/static/js/787.3b2667ff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8bf193b.css",
-    "static/js/main.d8cdf0ad.js"
+    "static/js/main.0e830407.js"
   ]
 }
