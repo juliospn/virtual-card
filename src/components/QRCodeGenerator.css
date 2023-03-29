@@ -6,6 +6,7 @@ label {
   
 input[type="text"] {
     width: 100%;
+    width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -15,6 +16,7 @@ input[type="text"] {
 }
 
 button[type="submit"] {
+    background-color: #4CAF50;
     background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
@@ -30,6 +32,9 @@ h1 {
     margin: 30px auto 0;
 }
 
+h1 {
+   text-align:center;
+}
 .qrcode-generator {
     display: flex;
     flex-direction: column;
@@ -55,3 +60,4 @@ h1 {
         width: 100%;
     }
 }
+

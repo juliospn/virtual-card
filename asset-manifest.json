@@ -13,3 +13,18 @@
     "static/js/main.9343d6a8.js"
   ]
 }
+{
+  "files": {
+    "main.css": "/virtual-card/static/css/main.688217fb.css",
+    "main.js": "/virtual-card/static/js/main.9343d6a8.js",
+    "static/js/787.3b2667ff.chunk.js": "/virtual-card/static/js/787.3b2667ff.chunk.js",
+    "index.html": "/virtual-card/index.html",
+    "main.688217fb.css.map": "/virtual-card/static/css/main.688217fb.css.map",
+    "main.9343d6a8.js.map": "/virtual-card/static/js/main.9343d6a8.js.map",
+    "787.3b2667ff.chunk.js.map": "/virtual-card/static/js/787.3b2667ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.688217fb.css",
+    "static/js/main.9343d6a8.js"
+  ]
+}
