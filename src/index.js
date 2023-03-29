@@ -1,19 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
+import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-const basename = "/virtual-card";
-
-root.render(
-  <BrowserRouter basename={basename}>
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  </BrowserRouter>
+const root = document.getElementById('root');
+const app = (
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
 
+ReactDOM.createRoot(root).render(app);
 reportWebVitals();
