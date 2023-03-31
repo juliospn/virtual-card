@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import './QRCodeGenerator.css';
 
-function QRCodeGenerator() {
-  const history = useHistory();
-  const [name, setName] = useState("");
+function QRCodeGenerator() {       // Use the useHistory hook from react-router-dom to manage navigation
+  const history = useHistory();         
+  const [name, setName] = useState("");           // Use the useState hook to manage state for the form fields
   const [linkedin, setLinkedin] = useState("");
   const [github, setGithub] = useState("");
 
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    // Monta a URL com os parâmetros passados na query string
+    // Build the URL with the parameters passed in the query string
     const searchParams = new URLSearchParams({
       name,
       linkedin,
@@ -20,19 +20,18 @@ function QRCodeGenerator() {
     });
     const url = `/qr?${searchParams.toString()}`;
 
-    // Faz o redirecionamento para a página QRCodePage passando a URL como parâmetro
+    // Redirect to the QRCodePage passing the URL as a parameter
     history.push(url);
   };
 
   return (
     <div>
       <h1>QR Code Image Generator*</h1>
-      <h1>QR Code Image Generator*</h1>
 
       <div className="qrcode-generator">
         <form onSubmit={handleSubmit}>
           <div className="form-group">
-            <label htmlFor="name">Nome:</label>
+            <label htmlFor="name">Name:</label>
             <input type="text" id="name" name="name" value={name} onChange={(event) => setName(event.target.value)}/>
           </div>
 
@@ -47,7 +46,6 @@ function QRCodeGenerator() {
           </div>
           
           <div>
-            <button type="submit">Generate QR Code</button>
             <button type="submit">Generate QR Code</button>
           </div>
         </form>
