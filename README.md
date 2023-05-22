@@ -1,4 +1,4 @@
-<h1>Virtual Personal Card App<h1>
+<h1 align="center">Virtual Personal Card App<h1>
 
 #### Status: Developing ⚠️
 
